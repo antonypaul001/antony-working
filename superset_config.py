@@ -135,20 +135,20 @@ OAUTH_PROVIDERS = [
         "token_key": "access_token",
         "icon": "fa-address-card",
         "remote_app": {
-            "client_id": "2slhi3jpns5qb89suasbgm05nt",
-            "client_secret": "1g099hsu8mufjfj0an1sqcis8rps1qid05cumn1736v3rgdk34bs",
+            "client_id": "clientid123",
+            "client_secret": "secret123",
             "client_kwargs": {"scope": "openid profile email"},
             "access_token_method": "POST",
             #'redirect_uri': 'https://sctcloud365.com/oauth-authorized/awscognito',
-            "access_token_params": {"client_id": "2slhi3jpns5qb89suasbgm05nt"},
+            "access_token_params": {"client_id": "clientid123"},
             "access_token_headers": {  # Additional headers for calls to access_token_url
                 "Authorization": "Basic Base64EncodedClientIdAndSecret"
             },
-            "access_token_url": "https://stevetest.auth.us-east-1.amazoncognito.com/oauth2/token",
-            "authorize_url": "https://stevetest.auth.us-east-1.amazoncognito.com/oauth2/authorize",
+            "access_token_url": "https://antonytest.auth.us-east-1.amazoncognito.com/oauth2/token",
+            "authorize_url": "https://antonytest.auth.us-east-1.amazoncognito.com/oauth2/authorize",
             "jwks_uri": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_2ungZoz9L/.well-known/jwks.json",
-            "api_base_url": "https://stevetest.auth.us-east-1.amazoncognito.com/oauth2/",
-            "userinfo_endpoint": "https://stevetest.auth.us-east-1.amazoncognito.com/oauth2/userInfo",
+            "api_base_url": "https://antonytest.auth.us-east-1.amazoncognito.com/oauth2/",
+            "userinfo_endpoint": "https://antonytest.auth.us-east-1.amazoncognito.com/oauth2/userInfo",
         },
     }
 ]
